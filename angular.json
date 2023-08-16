@@ -30,6 +30,7 @@
               "projects/user/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-toastr/toastr.css",
               "projects/user/src/styles.scss"
             ],
             "scripts": []
@@ -93,6 +94,7 @@
               "projects/user/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-toastr/toastr.css",
               "projects/user/src/styles.scss"
             ],
             "scripts": []
@@ -127,6 +129,7 @@
               "projects/admin/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-toastr/toastr.css",
               "projects/admin/src/styles.scss"
             ],
             "scripts": []
@@ -190,6 +193,7 @@
               "projects/admin/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-toastr/toastr.css",
               "projects/admin/src/styles.scss"
             ],
             "scripts": []
