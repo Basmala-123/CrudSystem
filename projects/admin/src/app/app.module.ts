@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { AuthModule } from './auth/auth.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxSpinnerModule } from 'ngx-spinner';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AuthModule,
     DashboardModule,
     ToastrModule.forRoot(), 
-    BrowserAnimationsModule
+    BrowserAnimationsModule, 
+    NgxSpinnerModule.forRoot({ type: 'square-loader' })
   ],
   providers: [],
   bootstrap: [AppComponent]

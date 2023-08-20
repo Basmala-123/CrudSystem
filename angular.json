@@ -30,6 +30,7 @@
               "projects/user/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-spinner/animations/square-loader.css",
               "node_modules/ngx-toastr/toastr.css",
               "projects/user/src/styles.scss"
             ],
@@ -94,6 +95,7 @@
               "projects/user/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-spinner/animations/square-loader.css",
               "node_modules/ngx-toastr/toastr.css",
               "projects/user/src/styles.scss"
             ],
@@ -129,6 +131,7 @@
               "projects/admin/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-spinner/animations/square-loader.css",
               "node_modules/ngx-toastr/toastr.css",
               "projects/admin/src/styles.scss"
             ],
@@ -193,6 +196,7 @@
               "projects/admin/src/assets"
             ],
             "styles": [
+              "node_modules/ngx-spinner/animations/square-loader.css",
               "node_modules/ngx-toastr/toastr.css",
               "projects/admin/src/styles.scss"
             ],

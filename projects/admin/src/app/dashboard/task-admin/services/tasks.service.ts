@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -5,5 +6,11 @@ import { Injectable } from '@angular/core';
 })
 export class TasksService {
 
-  constructor() { }
+  constructor(private http:HttpClient) { }
+
+  getAllTasks(){
+    let header=new Headers()
+    // header.append('Authorization',token);
+    return this.http.get("https://crudsystem-52w6.onrender.com/tasks/all-tasks")
+  }
 }

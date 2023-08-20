@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { TaskAdminRoutingModule } from './task-admin-routing.module';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { ListTasksComponent } from './components/list-tasks/list-tasks.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ListTasksComponent } from './components/list-tasks/list-tasks.component
   ],
   imports: [
     CommonModule,
-    TaskAdminRoutingModule
+    TaskAdminRoutingModule,
+    HttpClientModule
   ]
 })
 export class TaskAdminModule { }
